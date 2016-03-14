@@ -6674,6 +6674,12 @@ nav .brand-logo.right {
     padding: 0
 }
 
+#logo-text{
+    vertical-align: middle;
+    width: 20%;
+    height: 20%;
+}
+
 nav ul {
     margin: 0
 }
@@ -14772,6 +14778,12 @@ footer.page-footer input[type=submit]:focus {
 }
 
 @media only screen and (max-width:992px) {
+    #logo-text{
+        width: 65%;
+        height: 65%;
+        vertical-align: middle;
+    }
+
     .pagination {
         width: 100%
     }
@@ -14858,6 +14870,7 @@ footer.page-footer input[type=submit]:focus {
     table.responsive-table.bordered tbody tr {
         border-right: 1px solid #d0d0d0
     }
+
     nav .brand-logo {
         left: 50%;
         -webkit-transform: translateX(-50%);
