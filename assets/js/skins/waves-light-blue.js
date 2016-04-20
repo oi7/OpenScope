@@ -1,4 +1,5 @@
 (function () {
+
     var waves = new SineWaves({
         el: document.getElementById('waves'),
         speed: -8,
